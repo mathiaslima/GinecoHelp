@@ -1,0 +1,43 @@
+<ion-content>
+  <div class="backgroud ion-text-center">
+    <ion-list>
+      <ion-list-header>
+        <ion-label class="ion-text-center"><b>Orgasmo na relação</b></ion-label>
+      </ion-list-header>
+      <ion-item>
+        <ion-range color="danger" pin="true" min="0" max="10">
+          <ion-icon name="remove" slot="start"></ion-icon>
+          <ion-icon name="add" slot="end"></ion-icon>
+        </ion-range>
+      </ion-item>
+      <ion-radio-group>
+        <ion-list-header>
+          <ion-label><b>Dor na relação</b></ion-label>
+        </ion-list-header>
+    
+        <ion-item>
+          <ion-label>Sim</ion-label>
+          <ion-radio slot="start" value="sim" checked></ion-radio>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label>As vezes</ion-label>
+          <ion-radio slot="start" value="asvezes"></ion-radio>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label>Não</ion-label>
+          <ion-radio slot="start" value="nao"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-list>
+    <div class="rodape ion-text-center">
+      <ion-button color="primary" href="" style="font-family: Verdana, Geneva, Tahoma, sans-serif"><b>próximo</b></ion-button>
+    </div>
+  </div>
+  <ion-fab>
+    <ion-fab-button>
+        <ion-icon name="help-circle"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>

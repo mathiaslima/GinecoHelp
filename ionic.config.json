@@ -1,5 +1,7 @@
 {
   "name": "GinecoHelp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

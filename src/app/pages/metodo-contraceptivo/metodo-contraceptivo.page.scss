@@ -1,0 +1,40 @@
+ion-content {
+    --backgroud: #c8ffff; 
+    --padding: 0px;
+    --background-image: url(../../../assets/img/metodo.png);
+    --background-size: cover;    
+}
+
+ion-list{
+    background-color:#b5f0f0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 100px;
+    border-radius: 25px;
+}
+ion-radio{
+    --color-checked: #ff6c92;
+}
+ion-item{
+    --background:#b5f0f0;
+    --border-radius: 10px;
+}
+img{
+    height: 25px;
+}
+
+
+ion-list-header{
+    margin-left: 2%;
+}
+
+.rodape{
+    position: static;
+    bottom: 55px;
+    width: 100%;
+}
+
+.link{
+   color: #4a1c75;
+   
+}

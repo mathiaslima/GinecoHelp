@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyC9KGlHFaRq2LMHBItsc7rewpO6ngPz1A0",
+    authDomain: "genicohelp.firebaseapp.com",
+    databaseURL: "https://genicohelp.firebaseio.com",
+    projectId: "genicohelp",
+    storageBucket: "genicohelp.appspot.com",
+    messagingSenderId: "1089798240751",
+    appId: "1:1089798240751:web:ab6dbaa02ba2436b121e1a",
+    measurementId: "G-9SV6PQCRCX"
+  }
 };
 
 /*
