@@ -2,60 +2,60 @@
   <div class="backgroud ion-text-left">
 
 <ion-list class="lista">
-  <ion-list-header><b>Sintomas</b></ion-list-header>
+  
+  <ion-list-header><b>Sente ou possui os sintomas:</b></ion-list-header>
   <ion-radio-group>
     <ion-list-header>
-      <ion-label><img src="../../../assets/icon/ardor.png">Ardor</ion-label>
+      
+      <ion-label><img src="../../../assets/icon/heart.png"><b>Ardor</b></ion-label>
     </ion-list-header>
 
     <ion-item>
+      <img src="../../../assets/icon/baixo.png">
       <ion-label>Baixo</ion-label>
-      <ion-radio slot="start" value="Baixo" checked></ion-radio>
+      <ion-radio slot="start" value="baixo" checked></ion-radio>
     </ion-item>
 
     <ion-item>
+      <img src="../../../assets/icon/medio.png">
       <ion-label>Médio</ion-label>
-      <ion-radio slot="start" value="Medio"></ion-radio>
+      <ion-radio slot="start" value="medio"></ion-radio>
     </ion-item>
 
     <ion-item>
-      <ion-label>Alto</ion-label>
-      <ion-radio slot="start" value="Alto"></ion-radio>
+      <img src="../../../assets/icon/intenso.png">
+      <ion-label>Intenso</ion-label>
+      <ion-radio slot="start" value="intenso"></ion-radio>
     </ion-item>
   </ion-radio-group>
-
-  <ion-item>
-    <ion-label><img src="../../../assets/icon/corrimento.png"> Corrimento</ion-label>
-    <ion-toggle></ion-toggle>
-  </ion-item>
-
-  <ion-item>
-    <ion-label><img src="../../../assets/icon/coceira.png"> Coceira</ion-label>
-    <ion-toggle></ion-toggle>
-  </ion-item>
-
-  <ion-item>
-    <ion-label><img src="../../../assets/icon/sangramento.png"> Sangramento</ion-label>
-    <ion-toggle></ion-toggle>
-  </ion-item>
-
-  <ion-item>
-    <ion-label><img src="../../../assets/icon/colica.png"> Cólicas</ion-label>
-    <ion-toggle></ion-toggle>
-  </ion-item>
-
-  <ion-item>
-    <ion-label><img src="../../../assets/icon/muco.png"> Muco</ion-label>
-    <ion-toggle></ion-toggle>
-  </ion-item>
   
+  <ion-item>
+    <img src="../../../assets/icon/corrimento.png">
+    <ion-label>Corrimento</ion-label>
+    <ion-select placeholder="Selecione" [(ngModel)]="corrimento">
+      <ion-select-option value="transparente">Transparente</ion-select-option>
+      <ion-select-option value="branco">Branco</ion-select-option>
+      <ion-select-option value="amarelo">Amarelo</ion-select-option>
+      <ion-select-option value="a-esverdeado">Amarelo-esverdeado</ion-select-option>
+      <ion-select-option value="marrom">Marrom</ion-select-option>
+      <ion-select-option value="sangue">Com sangue</ion-select-option>
+      <ion-select-option value="rosado">Rosado</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    <img src="../../../assets/icon/coceira.png">
+    <ion-label> Coceira</ion-label>
+    <ion-toggle></ion-toggle>
+  </ion-item>
+
 </ion-list>
 <div class="rodape ion-text-center">
-  <ion-button color="primary" href="" style="font-family: Verdana, Geneva, Tahoma, sans-serif"><b>próximo</b></ion-button>
+  <ion-button href="/saude-vaginal-dois" style="font-family: Verdana, Geneva, Tahoma, sans-serif"><b>próximo</b></ion-button>
 </div>
   <ion-fab>
     <ion-fab-button>
-      <ion-icon name="help-circle"></ion-icon>
+      <img src="../../../assets/icon/dica.png"> 
     </ion-fab-button>
   </ion-fab>
 

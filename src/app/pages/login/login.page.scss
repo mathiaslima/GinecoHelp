@@ -22,7 +22,6 @@
         }
      }
  }
-
  &.botton{
      bottom: 5%;
     span {
@@ -30,6 +29,9 @@
     }
  }
 
+}
+img{
+    height: 25px;
 }
 .backgroud {
  position: static;
@@ -40,9 +42,8 @@
  background-size: contain;
  background-position: center;
 }
-
 ion-slides {
-    height: 100%;
+    height: 80%;
     
     .slide-inner{
         width: 75%;
